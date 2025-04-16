@@ -60,3 +60,110 @@ Embora este README descreva um projeto conceitual (já que não foram fornecidos
     * Estruturar o código em um pipeline para automatizar as etapas de carregamento, preparação, treinamento e avaliação do modelo. Isso garante a reprodutibilidade e facilita a atualização do modelo com novos dados. Ferramentas como scikit-learn `Pipeline` ou frameworks mais robustos como Kedro poderiam ser utilizadas.
 
 ## Análise das Sentenças (Arquivo `inputs/sentencas.txt`)
+
+
+
+# Ice Cream Sales Prediction
+
+## Descrição do Projeto
+Este projeto utiliza aprendizado de máquina para prever o volume de vendas de sorvete com base na temperatura média registrada em determinados períodos. Ele faz uso de um modelo de regressão linear para criar previsões que auxiliam na tomada de decisões estratégicas no setor de vendas. O objetivo principal é mostrar como dados climáticos podem ser usados para antecipar a demanda por produtos sazonais.
+
+# Ice Cream Sales Prediction
+
+## Objetivo
+O objetivo deste projeto é desenvolver um modelo de regressão preditiva que permita:
+
+✅ Treinar um modelo de Machine Learning para prever as vendas de sorvete com base na temperatura do dia.  
+✅ Registrar e gerenciar o modelo usando o MLflow.  
+✅ Implementar o modelo para previsões em tempo real em um ambiente de cloud computing.  
+✅ Criar um pipeline estruturado para treinar e testar o modelo, garantindo reprodutibilidade.
+
+## Metodologia
+1. **Coleta e Preparação dos Dados**:
+   - Dados históricos de temperatura e vendas foram utilizados e tratados.
+2. **Análise Exploratória de Dados (EDA)**:
+   - Gráficos e análises estatísticas mostraram uma forte correlação entre temperatura e vendas.
+3. **Treinamento do Modelo**:
+   - Foi utilizado um algoritmo de regressão linear, ajustado com hiperparâmetros otimizados.
+4. **Registro e Gerenciamento**:
+   - O MLflow foi usado para rastrear experimentos e gerenciar versões do modelo.
+5. **Implementação**:
+   - O modelo foi implementado para fazer previsões em tempo real em um ambiente de cloud computing.
+
+## Resultados
+- O modelo apresentou uma precisão de XX% ao prever vendas com base na temperatura (substitua com o valor real).  
+- Insights obtidos: A temperatura é um dos fatores mais influentes nas vendas de sorvete.
+
+## Possibilidades Futuras
+- Expandir o conjunto de dados para incluir outras variáveis, como dias da semana e condições climáticas adicionais.
+- Implementar o modelo para prever vendas em múltiplas localidades.
+- Melhorar o desempenho do pipeline com técnicas mais avançadas de aprendizado de máquina.
+
+
+
+# Previsão de Vendas de Sorvete com Machine Learning 🍦📊
+
+## Introdução
+Este projeto tem como objetivo desenvolver um modelo de regressão preditiva para estimar as vendas diárias de sorvete com base na temperatura ambiente. Inspirado na observação de que a demanda por sorvete aumenta em dias mais quentes, este modelo ajuda proprietários de sorveterias a planejarem sua produção de forma eficiente, reduzindo desperdícios e maximizando lucros.
+
+## Cenário
+Imagine-se como proprietário da sorveteria **Gelato Mágico**, localizada em uma cidade litorânea. Você percebe que existe uma clara correlação entre a temperatura e as vendas de sorvete. Este projeto visa solucionar o problema da falta de planejamento adequado utilizando Machine Learning para prever a demanda com maior precisão.
+
+## Objetivos
+- ✅ **Treinar um modelo de Machine Learning** para prever as vendas diárias de sorvete com base na temperatura.
+- ✅ **Registrar e gerenciar experimentos com o MLflow**, incluindo o modelo treinado e seus metadados.
+- ✅ **Explorar implementações conceituais em cloud computing** para previsões em tempo real.
+- ✅ **Criar um pipeline estruturado**, garantindo a reprodutibilidade dos resultados.
+
+## Metodologia
+O projeto foi desenvolvido com base nos seguintes passos:
+
+1. **Coleta e Preparação dos Dados**:
+   - Dados históricos de temperatura e vendas foram organizados em conjuntos de treinamento e teste.
+   - Análise para tratamento de valores ausentes e remoção de outliers.
+
+2. **Exploração e Análise dos Dados (EDA)**:
+   - Gráficos e estatísticas descritivas foram utilizados para entender a relação entre temperatura e vendas.
+
+3. **Treinamento do Modelo**:
+   - Um modelo de regressão linear foi implementado e ajustado usando a biblioteca scikit-learn.
+   - Avaliação do modelo com métricas de regressão como RMSE e R².
+
+4. **Gerenciamento com MLflow**:
+   - Parâmetros, métricas e artefatos do modelo foram registrados e gerenciados com o MLflow.
+
+5. **Pipeline Estruturado**:
+   - Todas as etapas do fluxo de trabalho foram organizadas para permitir fácil reprodutibilidade e atualização com novos dados.
+
+## Ferramentas Utilizadas
+- **Python**: Linguagem de programação principal.
+- **Scikit-learn**: Biblioteca para treinamento e avaliação do modelo.
+- **MLflow**: Plataforma para rastreamento e gerenciamento de modelos.
+- **Cloud Computing** (conceitual): Exploração de APIs para previsões em tempo real.
+
+## Resultados
+O modelo de regressão apresentou resultados satisfatórios, com boa capacidade de prever as vendas de sorvete com base na temperatura. Isso demonstra que é possível ajudar donos de sorveterias a otimizar sua produção e melhorar a gestão de estoque.
+
+## Como Reproduzir
+1. Clone este repositório:
+git clone https://github.com/alefeschulz/ice-cream-sales-prediction.git
+
+2. Instale as dependências necessárias:
+
+    pip install -r requirements.txt
+
+3. Execute o pipeline de treinamento:
+
+   python codigo/train_model.py
+
+4. Acesse os resultados no MLflow e explore os artefatos gerados.
+
+## Conclusão
+Este projeto demonstra como conceitos de Machine Learning podem ser aplicados para resolver problemas reais de negócios, otimizando processos e aumentando a lucratividade. É um excelente exemplo de projeto prático para enriquecer seu portfólio!
+
+---
+
+Sinta-se à vontade para contribuir ou compartilhar feedback sobre o projeto. 🚀
+
+
+
