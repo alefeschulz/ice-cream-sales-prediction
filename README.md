@@ -166,4 +166,6 @@ Este projeto demonstra como conceitos de Machine Learning podem ser aplicados pa
 Sinta-se à vontade para contribuir ou compartilhar feedback sobre o projeto. 🚀
 
 
+![Gráfico de Previsões](codigo/grafico_vendas.png)
+
 
