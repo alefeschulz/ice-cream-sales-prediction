@@ -166,6 +166,9 @@ Este projeto demonstra como conceitos de Machine Learning podem ser aplicados pa
 Sinta-se à vontade para contribuir ou compartilhar feedback sobre o projeto. 🚀
 
 
+## Visualização das Previsões
+O gráfico abaixo mostra a comparação entre as vendas reais e as previstas pelo modelo com base na temperatura. Ele destaca o desempenho do modelo na captura da relação entre as variáveis.
+
 ![Gráfico de Previsões](codigo/grafico_vendas.png)
 
 
